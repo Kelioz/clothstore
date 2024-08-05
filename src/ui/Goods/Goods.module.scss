@@ -25,11 +25,18 @@
       justify-content: center;
       position: absolute;
 
-      &:after{
-      }
+
     }
     &_red{
-
+      background-color: #ff2f2f;
+      height: 30px;
+      width: 50px;
+      color: white;
+      font-size: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
     }
 
   }
