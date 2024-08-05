@@ -1,0 +1,23 @@
+.root{
+  border-radius: 50px;
+  padding-right: 60px;
+  padding-left: 60px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  outline:none;
+  border: none;
+  &_type{
+    &_primary{
+      background: #404444;
+      color: white;
+    }
+    &_sale{
+      background: red;
+      color: white;
+      padding-right: 30px;
+      padding-left: 30px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+  }
+}

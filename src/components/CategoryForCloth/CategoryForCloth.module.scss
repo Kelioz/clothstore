@@ -1,0 +1,45 @@
+.root{
+  display: flex;
+  justify-content: center;
+  &__wrapper{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    padding-top: 30px;
+
+  }
+  &_bannerCategory{
+    background-color: aqua;
+  }
+  &_categoryContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 70%;
+  }
+  &_clothCategory{
+    display: flex;
+    overflow: auto;
+  }
+
+  @media screen and (max-width: 700px) {
+    &__wrapper{
+      display: block;
+      width: 100%;
+      text-align: center;
+    }
+    &_categoryContent{
+      width: 100%;
+
+    }
+    &_bannerCategory{
+      background-color: aqua;
+      margin-bottom: 20px;
+      img{
+        height: 300px;
+      }
+    }
+
+  }
+
+}

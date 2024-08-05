@@ -1,0 +1,51 @@
+.root{
+
+  &_wrapper{
+    padding-left: 100px;
+    padding-top: 30px;
+
+
+  }
+  &_contentWrapper{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+
+  }
+  &_mainImageBox{
+    display: block;
+    padding-right: 40px;
+    gap: 30px;
+    img{
+      width: 100%;
+    }
+  }
+  &_bigImageBox{
+    img{
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 700px){
+    &_mainImageBox{
+      display: flex;
+      padding-right: 0;
+      gap: 30px;
+      img{
+        width: 100%;
+      }
+    }
+    &_bigImageBox{
+      img{
+        width: 100%;
+      }
+    }
+    &_wrapper{
+      padding-left: 0;
+    }
+
+  }
+
+}

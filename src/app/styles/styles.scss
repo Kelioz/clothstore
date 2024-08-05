@@ -1,0 +1,33 @@
+@use 'src/app/styles/variables';
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url("src/app/assets/Font/static/Montserrat-Regular.ttf");
+}
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url("src/app/assets/Font/static/Montserrat-Bold.ttf");
+}
+@font-face {
+  font-family: 'Montserrat-Light';
+  src: url("src/app/assets/Font/static/Montserrat-Light.ttf");
+}
+
+body{
+  font-family: Montserrat-Regular;
+  margin: 0;
+  padding: 0;
+  font-size: clamp(17px, 1.4vw, 24px);
+
+}
+
+h1,h2,h3,h4,h5 {
+  color: #1D1D1D;
+}
+
+
+@media (width < 700px) {
+  #navWidthMiniId{
+    width: 80%;
+    justify-content: space-between;
+  }
+}

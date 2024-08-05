@@ -1,0 +1,11 @@
+.root{
+display: flex;
+  justify-content: center;
+  &__wrapper{
+    padding-top: 30px;
+    display: flex;
+    overflow: auto;
+
+  }
+
+}

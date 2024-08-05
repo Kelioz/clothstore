@@ -1,0 +1,48 @@
+.root{
+  &__wrapper{
+    width: 300px;
+    height: 568px;
+    margin-right: 30px;
+
+  }
+  &_imageBox{
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    position: relative;
+  }
+
+  &_promoType{
+
+    &_green{
+      background-color: #53ec55;
+      height: 30px;
+      width: 50px;
+      color: white;
+      font-size: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+
+      &:after{
+      }
+    }
+    &_red{
+
+    }
+
+  }
+
+  &_priceCart{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bolder;
+
+  }
+  &_goodsText{
+    font-size: 17px;
+  }
+
+
+}
