@@ -1,0 +1,33 @@
+.root{
+
+  &_wrapper{
+    margin-top: 100px;
+    background-color: rgba(219, 219, 219, 0.18);
+    padding-top: 60px;
+  }
+
+  &_footerLinksWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    gap: 20px;
+
+  }
+  &_FooterLimks{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+  }
+  &_cardContainer{
+    display: flex;
+    justify-content: center;
+  }
+  &_copyright{
+    display: flex;
+    justify-content: center;
+    border-top: #404444 solid 1px;
+  }
+
+}

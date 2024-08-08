@@ -13,5 +13,6 @@ export type Props = Omit<
 
 enum ButtonType {
     primary = 'primary',
-    sale = 'sale'
+    sale = 'sale',
+    secondary = 'secondary'
 }

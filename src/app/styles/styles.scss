@@ -20,10 +20,15 @@ body{
 
 }
 
-h1,h2,h3,h4,h5 {
+h1,h2,h3,h4,h5,a {
   color: #1D1D1D;
 }
-
+a{
+  text-decoration: none;
+  :hover{
+    text-decoration: underline;
+  }
+}
 
 @media (width < 700px) {
   #navWidthMiniId{

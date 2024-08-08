@@ -1,0 +1,19 @@
+.root{
+  &__wrapper{
+
+  }
+
+    border-radius: 20px;
+    border: none;
+
+
+  &_inputSize{
+
+    &_default{
+    }
+    &_large{
+      padding-left: 10px;
+
+    }
+  }
+}

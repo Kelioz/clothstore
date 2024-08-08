@@ -1,0 +1,26 @@
+.root{
+  &__wrapper{
+    padding-top: 20px;
+
+  }
+  &_newsContentWrapper{
+    display: flex;
+    overflow: auto;
+    justify-content: center;
+    gap: 60px;
+  }
+  &_headerNews{
+    padding-left: 100px;
+  }
+  &_newsTitle{
+    font-weight: bolder;
+  }
+
+  @media screen and (max-width: 700px){
+    &_headerNews{
+      padding-left: 0;
+    }
+
+  }
+
+}
